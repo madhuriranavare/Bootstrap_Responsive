@@ -1,2 +1,11 @@
-@import 'custom';
 @import '~bootstrap/scss/bootstrap';
+@import 'custom';
+@import '~bootswatch/dist/journal/_bootswatch';
+@import 'navbar';
+@import 'jumbotron';
+@import 'card';
+@import 'footer';
+@import 'body';
+@import 'variable';
+@import 'var';
+@import 'form';

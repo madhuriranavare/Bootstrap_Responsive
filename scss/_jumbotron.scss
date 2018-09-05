@@ -1,0 +1,10 @@
+.container{
+    .jumbotron{
+        background-color: $background-color_jumbotron;
+        margin-top: 2rem;
+            p{
+                color: $color_jumbotron;
+            }
+
+        }
+    }

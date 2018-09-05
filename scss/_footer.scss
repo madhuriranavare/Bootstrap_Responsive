@@ -1,0 +1,32 @@
+.footer-main-div{
+    li{
+       display: inline;
+       
+       
+    }
+    .footer-social-icons{
+        align-items:center;
+      
+    }
+    a{
+        color: black;
+        size:5rem;
+    }
+    .footer-copyright{
+        a{
+            color: black;
+        }
+    }
+    
+    
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: grey;
+    .list-unstyled{
+        a{
+            color:black;
+        }
+    }
+}
