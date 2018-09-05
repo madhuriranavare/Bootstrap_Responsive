@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-  <title>Getting started.....</title>
+  <title>Maharashtra Heritage</title>
 </head>
 <body>
 <header>
   <nav class="navbar navbar-expand-lg navbar-light ">
-      <img src="logo.png" class="rounded" alt="Logo Image" style="height:80px; width:80px">
+      <img src="img/logo.png" class="rounded" alt="Logo Image" style="height:80px; width:80px">
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -128,9 +128,9 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="pratap.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/pratapgad.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Prtapgad Fort</h5>
+                <h5 class="card-title">Pratapgad Fort</h5>
                 <p class="card-text">Pratapgad Fort is a mountain fort built by Chatrapati Shivaji Maharaj. The fort is at a distance of 24 km from the hill station of Mahabaleshwar. The fort holds a sturdy view of coastal Konkan. The Bhavani Temple and Afzal Khan's tomb are other places of interest.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
@@ -140,7 +140,7 @@
 
         <div class="card-deck">
             <div class="card">
-              <img class="card-img-top" src="vijay_durg.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/vijaydurg-fort.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Vijay Durg Fort</h5>
                 <p class="card-text">Vijaydurg (sometimes written as Viziadurg), the oldest fort on the Sindhudurg coast, was constructed during the regime of Raja Bhoja II of the Shilahar dynasty (construction period 1193-1205) and restructured by Shivaji Maharaj.</p>
@@ -148,7 +148,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="kandhar.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/kandhar.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Kandhar Fort</h5>
                 <p class="card-text">Kandhar Fort is at Kandhar town in Nanded district of Maharashtra. The fort is encircled with a ditch full of water. It is believed that Rashtrakuta King Krishna III of Malkhed who styled himself as Kandharpuradhi Swar constructed the fort. The ruins of this majestic and historic fort are located at a distance of 50 km from the Ranthambhore National Park.</p>
@@ -156,7 +156,7 @@
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="sindhu_durg.jpg" alt="Card image cap">
+              <img class="card-img-top" src="img/sindhu.jpeg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Sindhu Durg Fort</h5>
                 <p class="card-text">Sindhudurg, Shivaji built this ocean fort in 1664 AD on a low rocky 48-acre island off the Malvan coast. Vijaydurg and Sindhudurg are twin forts from the days of Shivaji's time that is a historic place with its serene coastal beauty. It is believed that Shivaji personally selected the site for the construction of the fort.</p>
@@ -177,28 +177,104 @@
         </div>
     </div>
 
-    <!--pagination-->
-<div class="form_color">
-  <div class="container">
-    <form action="/action_page.php">
-      <div class="form-group">
-        <label for="email">Email address:</label>
-        <input type="email" class="form-control" id="email" style="width:25rem;"> 
+    
+    
+  <div class="modal1 text-center">
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalLong">
+        Submit Form
+      </button>
+    </div>  
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Fill Form</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name"  required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"  required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationCustomUsername">Username</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          </div>
+                          <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Please choose a username.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </form>
+                  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="pwd">Commments</label>
-        <input type="text" class="form-control" id="pwd" style="width:15rem; height:20rem; ">
-      </div>
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-      <button type="submit" class="btn btn-default">Submit</button>
-    </form> 
-  </div>
-</div>
 
 
-    <nav aria-label="Page navigation example">
+
+<!--pagination-->
+    <!--<nav aria-label="Page navigation example">-->
+
       <div class="pagi">
         <ul class="pagination justify-content-center">
           <li class="page-item disabled">
@@ -212,7 +288,7 @@
           </li>
         </ul>
         </div>
-      </nav>
+     <!-- </nav>-->
 
 
 

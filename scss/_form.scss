@@ -1,6 +1,14 @@
 .form_color{
     .container{
         background:rgb(92, 92, 61);
-    
+        .form-control{
+            align-items: center;
+        }    
+    }
+}
+
+.modal1{
+    .button{
+        justify-content: center;
     }
 }
